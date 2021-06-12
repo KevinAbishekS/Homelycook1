@@ -152,7 +152,7 @@ function displaycart() {
       productcontainer.innerHTML +=`
       <div class="product">
       <box-icon type='solid' class="removeitem" name='trash-alt'></box-icon>
-      <img src="/assets/${item.tag}.png">
+      <img src="../assets/${item.tag}.png">
       <span>${item.name}</span>
       </div>
       <div class="price">${item.price}</div>
